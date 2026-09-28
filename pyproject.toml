@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uibe-course-planner"
+version = "0.1.0"
+description = "对外经济贸易大学选课助手：班次冲突检测 / 培养方案学分对照 / 周课表预览 / 无冲突班次推荐 / 多方案对比（纯标准库，离线可用，不代选课）"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "broncatw" }]
+keywords = ["UIBE", "course", "selection", "timetable", "选课", "课表"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+ucourse = "uibe_course_planner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,65 @@
+{
+  "classes": [
+    {
+      "name": "计量经济学",
+      "class_no": "01",
+      "credits": 3,
+      "category": "专业必修",
+      "teacher": "示例教师A",
+      "sessions": [{"day": "周一", "start": 3, "end": 4}, {"day": "周三", "start": 1, "end": 2}],
+      "weeks": "1-16",
+      "note": "示例数据：请按教务系统实际班次整理"
+    },
+    {
+      "name": "计量经济学",
+      "class_no": "02",
+      "credits": 3,
+      "category": "专业必修",
+      "teacher": "示例教师B",
+      "sessions": [{"day": "周二", "start": 3, "end": 4}, {"day": "周四", "start": 1, "end": 2}],
+      "weeks": "1-16"
+    },
+    {
+      "name": "中级财务会计",
+      "class_no": "01",
+      "credits": 4,
+      "category": "专业必修",
+      "teacher": "示例教师C",
+      "sessions": [{"day": "周一", "start": 5, "end": 6}, {"day": "周四", "start": 3, "end": 4}],
+      "weeks": "1-16"
+    },
+    {
+      "name": "英语言语交际",
+      "class_no": "01",
+      "credits": 2,
+      "category": "通识选修",
+      "teacher": "示例教师D",
+      "sessions": [{"day": "周一", "start": 4, "end": 5}],
+      "weeks": "1-16"
+    },
+    {
+      "name": "英语言语交际",
+      "class_no": "02",
+      "credits": 2,
+      "category": "通识选修",
+      "teacher": "示例教师E",
+      "sessions": [{"day": "周五", "start": 6, "end": 7}],
+      "weeks": "1-16"
+    },
+    {
+      "name": "Python程序设计",
+      "class_no": "01",
+      "credits": 2,
+      "category": "专业限选",
+      "teacher": "示例教师F",
+      "sessions": [{"day": "周五", "start": 9, "end": 10}],
+      "weeks": "1-16"
+    }
+  ],
+  "periods": {
+    "1": ["08:00", "08:45"],
+    "5": ["14:00", "14:45"],
+    "9": ["18:30", "19:15"]
+  },
+  "_说明": "示例目录：courses 由教务系统课表页面人工整理而来；periods 为节次-时间对照（可省略，省略时使用通用模板）。"
+}
